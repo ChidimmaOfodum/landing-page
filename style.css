@@ -1,0 +1,117 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background: url("https://images.pexels.com/photos/2113566/pexels-photo-2113566.jpeg");
+  background-size: cover;
+  background-color: transparent;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  padding: auto;
+  display: grid;
+}
+
+nav {
+  grid-column: 2/3;
+  text-align: right;
+  display: flex;
+  gap: 5%;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: whitesmoke;
+  padding-top: 15px;
+}
+
+.background {
+  background-color: rgb(53, 19, 53);
+  color: whitesmoke;
+  margin-top: 0;
+}
+
+.first-wrap {
+  width: 80%;
+  height: 280px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.579);
+}
+
+.introduction {
+  width: 50%;
+  float: right;
+  position: relative;
+  top: 5%;
+  right: 20%;
+}
+.image {
+  height: 100%;
+  width: 350px;
+  float: left;
+}
+
+h3 {
+  color: purple;
+  text-align: center;
+  margin: 0;
+}
+
+img {
+  height: 100%;
+  width: 80%;
+}
+
+main {
+  background: whitesmoke;
+  padding: 2%;
+}
+h1 {
+  margin: 20px 39%;
+  width: 51%;
+}
+h2 {
+  text-align: center;
+}
+.video-div {
+  text-align: center;
+}
+footer {
+  margin: 0;
+  background: rgb(53, 19, 53);
+  color: whitesmoke;
+  display: flex;
+  gap: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+footer p {
+  margin-block-start: 0;
+}
+
+i {
+  font-size: larger;
+  border: 0;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}
